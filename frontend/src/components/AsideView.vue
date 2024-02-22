@@ -33,19 +33,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息与报名",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "教练员信息",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "information",
                   children: []
                 },
@@ -58,19 +58,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息与报名",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "教练员信息",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "information",
                   children: []
                 },
@@ -90,19 +90,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息与报名",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "比赛派遣",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "dispatch",
                   children: []
                 },
@@ -115,19 +115,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "比赛派遣",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "dispatch",
                   children: []
                 },
@@ -147,7 +147,7 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "register",
                   children: []
                 },
@@ -160,7 +160,7 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "register",
                   children: []
                 },
@@ -180,13 +180,13 @@ export default {
               children: [
                 {
                   name: "年度赛事日历公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "calendar",
                   children: []
                 },
                 {
                   name: "赛事信息与报名",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "sign_up",
                   children: []
                 },
@@ -199,13 +199,13 @@ export default {
               children: [
                 {
                   name: "年度赛事日历公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "calendar",
                   children: []
                 },
                 {
                   name: "赛事信息与报名",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "sign_up",
                   children: []
                 },
@@ -220,13 +220,13 @@ export default {
           children: [
             {
               name: "大众青少年皮划艇静水",
-              path: "/web/system",
+              path: "/web/404",
               icon: "mass_youth",
               children: [],
             },
             {
               name: "公开水域皮划艇",
-              path: "/web/system",
+              path: "/web/404",
               icon: "open_water",
               children: [],
             },
@@ -244,13 +244,13 @@ export default {
               children: [
                 {
                   name: "积分排行榜",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "ranking",
                   children: []
                 },
                 {
                   name: "运动员信息",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "athlete_information",
                   children: []
                 },
@@ -266,19 +266,19 @@ export default {
                       children: [
                         {
                           name: "留榜运动员名单",
-                          path: "/web/system",
+                          path: "/web/404",
                           icon: "nameList",
                           children: []
                         },
                         {
                           name: "留榜人数统计",
-                          path: "/web/system",
+                          path: "/web/404",
                           icon: "number",
                           children: []
                         },
                         {
                           name: "留榜率",
-                          path: "/web/system",
+                          path: "/web/404",
                           icon: "rate",
                           children: []
                         },
@@ -291,19 +291,19 @@ export default {
                       children: [
                         {
                           name: "新入榜运动员名单",
-                          path: "/web/system",
+                          path: "/web/404",
                           icon: "nameList",
                           children: []
                         },
                         {
                           name: "新入榜人数统计",
-                          path: "/web/system",
+                          path: "/web/404",
                           icon: "number",
                           children: []
                         },
                         {
                           name: "新入榜率",
-                          path: "/web/system",
+                          path: "/web/404",
                           icon: "rate",
                           children: []
                         },
@@ -320,13 +320,13 @@ export default {
               children: [
                 {
                   name: "积分排行榜",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "ranking",
                   children: []
                 },
                 {
                   name: "运动员信息",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "athlete_information",
                   children: []
                 },
@@ -346,25 +346,25 @@ export default {
               children: [
                 {
                   name: "裁判员相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "referee",
                   children: []
                 },
                 {
                   name: "教练员相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "coach",
                   children: []
                 },
                 {
                   name: "运动员相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "athlete",
                   children: []
                 },
                 {
                   name: "管理制度与政策相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "policy",
                   children: []
                 },
@@ -377,25 +377,25 @@ export default {
               children: [
                 {
                   name: "裁判员相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "referee",
                   children: []
                 },
                 {
                   name: "教练员相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "coach",
                   children: []
                 },
                 {
                   name: "运动员相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "athlete",
                   children: []
                 },
                 {
                   name: "管理制度与政策相关公告",
-                  path: "/web/system",
+                  path: "/web/404",
                   icon: "policy",
                   children: []
                 },
