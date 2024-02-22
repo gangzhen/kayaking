@@ -1,0 +1,47 @@
+/* 全局CSS */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 14px;
+}
+
+/* 布局CSS */
+.b-layout {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Aside CSS */
+.el-aside {
+    height: 100vh;
+    background-color: #CE111A;
+    box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+}
+
+/* Header CSS */
+.el-header {
+    box-shadow: 2px 0 6px rgba(0, 21, 41, .35);
+}
+
+/* Main CSS */
+.el-main {
+    width: 100%;
+    height: 100%;
+}
+
+/* Web main页面 CSS*/
+.main-area {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
