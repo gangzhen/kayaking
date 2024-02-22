@@ -244,13 +244,13 @@ export default {
               children: [
                 {
                   name: "积分排行榜",
-                  path: "/web/404",
+                  path: "/web/points/mass-youth/ranking",
                   icon: "ranking",
                   children: []
                 },
                 {
                   name: "运动员信息",
-                  path: "/web/404",
+                  path: "/web/points/mass-youth/athletes-info",
                   icon: "athlete_information",
                   children: []
                 },
@@ -266,19 +266,19 @@ export default {
                       children: [
                         {
                           name: "留榜运动员名单",
-                          path: "/web/404",
+                          path: "/web/points/mass-youth/statistic/retention/name-list",
                           icon: "nameList",
                           children: []
                         },
                         {
                           name: "留榜人数统计",
-                          path: "/web/404",
+                          path: "/web/points/mass-youth/statistic/retention/number",
                           icon: "number",
                           children: []
                         },
                         {
                           name: "留榜率",
-                          path: "/web/404",
+                          path: "/web/points/mass-youth/statistic/retention/rate",
                           icon: "rate",
                           children: []
                         },
@@ -291,19 +291,19 @@ export default {
                       children: [
                         {
                           name: "新入榜运动员名单",
-                          path: "/web/404",
+                          path: "/web/points/mass-youth/statistic/entry/name-list",
                           icon: "nameList",
                           children: []
                         },
                         {
                           name: "新入榜人数统计",
-                          path: "/web/404",
+                          path: "/web/points/mass-youth/statistic/entry/number",
                           icon: "number",
                           children: []
                         },
                         {
                           name: "新入榜率",
-                          path: "/web/404",
+                          path: "/web/points/mass-youth/statistic/entry/rate",
                           icon: "rate",
                           children: []
                         },
@@ -447,7 +447,7 @@ export default {
   </div>
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .aside-area {
   display: flex;
   flex-direction: column;

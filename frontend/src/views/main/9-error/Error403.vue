@@ -13,7 +13,7 @@ export default {
   </div>
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .main-area-error {
   width: 100%;
   height: 100%;

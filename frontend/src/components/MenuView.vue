@@ -36,7 +36,7 @@ export default {
   </div>
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .menu-area {
   width: 100%;
   height: 100%;

@@ -47,7 +47,7 @@ export default {
   </div>
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .header-area {
   display: flex;
   height: 100%;

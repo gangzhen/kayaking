@@ -11,7 +11,7 @@ export default {
   </div>
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .home-title-zh {
   display: flex;
   flex: 3;

@@ -55,7 +55,85 @@ const routes = [
             path: 'points',
             name: 'points',
             meta: { title: '积分赛信息' },
-            component: () => import('@/views/main/9-error/Error404.vue'),
+            component: () => import('@/views/main/MainView.vue'),
+            children: [
+              {
+                path: 'mass-youth',
+                name: 'mass-youth',
+                meta: { title: '大众青少年皮划艇静水' },
+                component: () => import('@/views/main/MainView.vue'),
+                children: [
+                  {
+                    path: 'ranking',
+                    name: 'ranking',
+                    meta: { title: '积分排名榜' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'athletes-info',
+                    name: 'athletes-info',
+                    meta: { title: '运动员信息' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'statistic/retention/name-list',
+                    name: 'retention/name-list',
+                    meta: { title: '留榜运动员名单' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'statistic/retention/number',
+                    name: 'retention/number',
+                    meta: { title: '留榜人数统计' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'statistic/retention/rate',
+                    name: 'retention/rate',
+                    meta: { title: '留榜率' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'statistic/entry/name-list',
+                    name: 'entry/name-list',
+                    meta: { title: '新入榜运动员名单' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'statistic/entry/number',
+                    name: 'entry/name-list',
+                    meta: { title: '新入榜人数统计' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'statistic/entry/rate',
+                    name: 'entry/name-list',
+                    meta: { title: '新入榜率' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                ]
+              },
+              {
+                path: 'open-water',
+                name: 'open-water',
+                meta: { title: '公开水域皮划艇' },
+                component: () => import('@/views/main/MainView.vue'),
+                children: [
+                  {
+                    path: 'ranking',
+                    name: 'ranking',
+                    meta: { title: '积分排名榜' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  },
+                  {
+                    path: 'athletes-info',
+                    name: 'athletes-info',
+                    meta: { title: '运动员信息' },
+                    component: () => import('@/views/main/9-error/Error404.vue'),
+                  }
+                ]
+              },
+            ]
           },
           {
             path: 'announcements',

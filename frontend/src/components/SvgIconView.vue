@@ -1,5 +1,6 @@
 <script>
 import '../assets/icons'
+
 export default {
   name: "SvgIconView",
   props: {
@@ -14,20 +15,20 @@ export default {
   },
   computed: {
     style() {
-      return { "--color": this.color };
+      return {"--color": this.color};
     }
   }
 }
 </script>
 
 <template>
-  <i v-if="iconFileName.indexOf('el-icon-') === 0" :class="iconFileName" />
+  <i v-if="iconFileName.indexOf('el-icon-') === 0" :class="iconFileName"/>
   <svg v-else class="svg-icon" aria-hidden="true" v-on="$listeners" :style="style">
-    <use :xlink:href="`#icon-${iconFileName}`" rel="external nofollow"  />
+    <use :xlink:href="`#icon-${iconFileName}`" rel="external nofollow"/>
   </svg>
 </template>
 
-<style lang="less" scoped>
+<style scoped lang="less">
 .svg-icon {
   width: 1.1em;
   height: 1.1em;
