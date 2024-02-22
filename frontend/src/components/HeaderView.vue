@@ -37,7 +37,7 @@ export default {
           <svg-icon-view class="header-user-icon" icon-file-name="user"/>
           <span>admin</span>
         </div>
-        <el-dropdown-menu slot="dropdown" style="color: #000000">
+        <el-dropdown-menu v-slot="dropdown" style="color: #000000">
           <el-dropdown-item>个人信息</el-dropdown-item>
           <el-dropdown-item>修改密码</el-dropdown-item>
           <el-dropdown-item>退出登录</el-dropdown-item>
@@ -78,7 +78,7 @@ export default {
 
   span {
     color: #000000;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
   }
 }
@@ -88,5 +88,9 @@ export default {
   span {
     color: #F1D792;
   }
+}
+
+/deep/ .el-dropdown-menu__item:hover {
+  color: #F1D792;
 }
 </style>
