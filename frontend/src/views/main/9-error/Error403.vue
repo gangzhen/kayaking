@@ -18,8 +18,8 @@ export default {
   width: 100%;
   height: 100%;
   padding: 20px;
-  background-color: #114F9E;
-  color: #CE111A;
+  background-color: #CE111A;
+  color: #F1D792;
   display: flex;
   align-items: center;
   justify-content: center;
