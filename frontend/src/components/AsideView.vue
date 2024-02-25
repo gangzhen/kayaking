@@ -10,7 +10,7 @@ export default {
       menuArr: [
         {
           name: "首页",
-          path: "/",
+          path: "首页",
           icon: "home",
           children: [
             {
@@ -33,19 +33,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/404",
+                  path: "/web/coaches/mass-youth/register",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息与报名",
-                  path: "/web/404",
+                  path: "/web/coaches/mass-youth/train",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "教练员信息",
-                  path: "/web/404",
+                  path: "/web/coaches/mass-youth/info",
                   icon: "information",
                   children: []
                 },
@@ -58,19 +58,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/404",
+                  path: "/web/coaches/open-water/register",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息与报名",
-                  path: "/web/404",
+                  path: "/web/coaches/open-water/train",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "教练员信息",
-                  path: "/web/404",
+                  path: "/web/coaches/open-water/info",
                   icon: "information",
                   children: []
                 },
@@ -90,19 +90,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/404",
+                  path: "/web/referees/mass-youth/register",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息与报名",
-                  path: "/web/404",
+                  path: "/web/referees/mass-youth/train",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "比赛派遣",
-                  path: "/web/404",
+                  path: "/web/referees/mass-youth/dispatch",
                   icon: "dispatch",
                   children: []
                 },
@@ -115,19 +115,19 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/404",
+                  path: "/web/referees/open-water/register",
                   icon: "register",
                   children: []
                 },
                 {
                   name: "培训信息",
-                  path: "/web/404",
+                  path: "/web/referees/open-water/train",
                   icon: "training",
                   children: []
                 },
                 {
                   name: "比赛派遣",
-                  path: "/web/404",
+                  path: "/web/referees/open-water/dispatch",
                   icon: "dispatch",
                   children: []
                 },
@@ -147,7 +147,7 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/404",
+                  path: "/web/athletes/mass-youth/register",
                   icon: "register",
                   children: []
                 },
@@ -160,7 +160,7 @@ export default {
               children: [
                 {
                   name: "年度注册",
-                  path: "/web/404",
+                  path: "/web/athletes/open-water/register",
                   icon: "register",
                   children: []
                 },
@@ -180,13 +180,13 @@ export default {
               children: [
                 {
                   name: "年度赛事日历公告",
-                  path: "/web/404",
+                  path: "/web/competitions/mass-youth/calendar",
                   icon: "calendar",
                   children: []
                 },
                 {
                   name: "赛事信息与报名",
-                  path: "/web/404",
+                  path: "/web/competitions/mass-youth/sign-up",
                   icon: "sign_up",
                   children: []
                 },
@@ -199,13 +199,13 @@ export default {
               children: [
                 {
                   name: "年度赛事日历公告",
-                  path: "/web/404",
+                  path: "/web/competitions/open-water/calendar",
                   icon: "calendar",
                   children: []
                 },
                 {
                   name: "赛事信息与报名",
-                  path: "/web/404",
+                  path: "/web/competitions/open-water/sign-up",
                   icon: "sign_up",
                   children: []
                 },
@@ -220,13 +220,13 @@ export default {
           children: [
             {
               name: "大众青少年皮划艇静水",
-              path: "/web/404",
+              path: "/web/results/mass-youth",
               icon: "mass_youth",
               children: [],
             },
             {
               name: "公开水域皮划艇",
-              path: "/web/404",
+              path: "/web/results/open-water",
               icon: "open_water",
               children: [],
             },
@@ -320,13 +320,13 @@ export default {
               children: [
                 {
                   name: "积分排行榜",
-                  path: "/web/404",
+                  path: "/web/points/open-water/ranking",
                   icon: "ranking",
                   children: []
                 },
                 {
                   name: "运动员信息",
-                  path: "/web/404",
+                  path: "/web/points/open-water/athletes-info",
                   icon: "athlete_information",
                   children: []
                 },
@@ -346,25 +346,25 @@ export default {
               children: [
                 {
                   name: "裁判员相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/mass-youth/referee",
                   icon: "referee",
                   children: []
                 },
                 {
                   name: "教练员相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/mass-youth/coach",
                   icon: "coach",
                   children: []
                 },
                 {
                   name: "运动员相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/mass-youth/athlete",
                   icon: "athlete",
                   children: []
                 },
                 {
                   name: "管理制度与政策相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/mass-youth/policy",
                   icon: "policy",
                   children: []
                 },
@@ -377,25 +377,25 @@ export default {
               children: [
                 {
                   name: "裁判员相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/open-water/referee",
                   icon: "referee",
                   children: []
                 },
                 {
                   name: "教练员相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/open-water/coach",
                   icon: "coach",
                   children: []
                 },
                 {
                   name: "运动员相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/open-water/athlete",
                   icon: "athlete",
                   children: []
                 },
                 {
                   name: "管理制度与政策相关公告",
-                  path: "/web/404",
+                  path: "/web/announcements/open-water/policy",
                   icon: "policy",
                   children: []
                 },
@@ -436,7 +436,7 @@ export default {
           text-color="#FFFFFF"
           active-text-color="#F1D792"
           :default-active="activeIndex"
-          :unique-opened="true"
+          unique-opened
           router
           ref="elMenu"
           @select="menuSelect"
