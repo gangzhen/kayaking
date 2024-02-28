@@ -280,13 +280,13 @@ const routes = [
                     path: 'statistic/retention/number',
                     name: 'points/mass-youth/statistic/retention/number',
                     meta: { title: '留榜人数统计' },
-                    component: () => import('@/views/main/0-home/Empty.vue'),
+                    component: () => import('@/views/main/7-points/mass-youth/statistic/retention/MYRetentionNumber.vue'),
                   },
                   {
                     path: 'statistic/retention/rate',
                     name: 'points/mass-youth/statistic/retention/rate',
                     meta: { title: '留榜率' },
-                    component: () => import('@/views/main/0-home/Empty.vue'),
+                    component: () => import('@/views/main/7-points/mass-youth/statistic/retention/MYRetentionRate.vue'),
                   },
                   {
                     path: 'statistic/entry/name-list',
@@ -298,13 +298,13 @@ const routes = [
                     path: 'statistic/entry/number',
                     name: 'points/mass-youth/statistic/entry/number',
                     meta: { title: '新入榜人数统计' },
-                    component: () => import('@/views/main/0-home/Empty.vue'),
+                    component: () => import('@/views/main/7-points/mass-youth/statistic/entry/MYEntryNumber.vue'),
                   },
                   {
                     path: 'statistic/entry/rate',
                     name: 'points/mass-youth/statistic/entry/rate',
                     meta: { title: '新入榜率' },
-                    component: () => import('@/views/main/0-home/Empty.vue'),
+                    component: () => import('@/views/main/7-points/mass-youth/statistic/entry/MYEntryRate.vue'),
                   },
                 ]
               },
