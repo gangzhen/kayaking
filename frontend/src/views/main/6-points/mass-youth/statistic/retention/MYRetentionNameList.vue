@@ -99,7 +99,7 @@ export default {
     }
   },
   methods: {
-    onSubmit() {
+    handleSearch() {
       console.log(1)
     },
     handleSizeChange(val) {
@@ -150,8 +150,8 @@ export default {
           <el-input v-model="searchForm.group" placeholder="赛事组别"></el-input>
         </el-form-item>
         <el-form-item>
-          <el-button type="primary" icon="el-icon-search" @click="onSubmit"></el-button>
-          <el-button type="danger" @click="onSubmit">重置</el-button>
+          <el-button type="primary" icon="el-icon-search" @click="handleSearch"></el-button>
+          <el-button type="danger" @click="handleSearch">重置</el-button>
         </el-form-item>
       </el-form>
     </div>

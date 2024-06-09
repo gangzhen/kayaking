@@ -8,10 +8,10 @@ export default {
     }
   },
   mounted() {
-    this.onSearch();
+    this.handleSearch();
   },
   methods: {
-    onSearch() {
+    handleSearch() {
       this.drawChart();
     },
     drawChart() {

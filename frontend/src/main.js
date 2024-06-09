@@ -5,6 +5,7 @@ import ElementUI from 'element-ui'
 import * as echarts from 'echarts';
 import 'element-ui/lib/theme-chalk/index.css'
 import '@/assets/css/global.css'
+import '@/assets/css/element-variables.scss'
 import '@/assets/icons/index.js'
 import '@/utils/globalVarService.js'
 

@@ -83,7 +83,7 @@ export default {
       </div>
 
       <div class="athlete-photo">
-        <img :src="athleteInfo.photoUrl" alt="" class="photo">
+        <img :src="athleteInfo.photoUrl" class="photo" alt="">
       </div>
     </div>
     <div class="main-athleteInfo-detail-area">

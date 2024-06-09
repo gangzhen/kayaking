@@ -10,7 +10,7 @@ export default {
 </script>
 
 <template>
-  <div class="b-layout">
+  <div class="proj-layout">
     <el-container>
       <el-aside width="280px">
         <AsideView/>

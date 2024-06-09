@@ -425,7 +425,7 @@ export default {
 <template>
   <div class="aside-area">
     <div class="aside-logo">
-      <img class="aside-logo-img" src="@/assets/img/logo.png" alt="" @click="goHome()">
+      <img class="aside-logo-img" src="@/assets/img/logo.png" @click="goHome()" alt="">
     </div>
     <div class="aside-title">
       <span @click="goHome()">中国皮划艇协会竞赛管理系统</span>

@@ -58,7 +58,7 @@ export default {
     }
   },
   methods: {
-    onSubmit() {
+    handleSearch() {
       console.log(1)
     },
     handleSizeChange(val) {
@@ -94,7 +94,7 @@ export default {
           <el-input v-model="searchForm.rankingRange" placeholder="排名范围"></el-input>
         </el-form-item>
         <el-form-item style="width: 90px">
-          <el-button type="primary" icon="el-icon-search" @click="onSubmit">查询</el-button>
+          <el-button type="primary" icon="el-icon-search" @click="handleSearch">查询</el-button>
         </el-form-item>
       </el-form>
     </div>
@@ -111,7 +111,7 @@ export default {
           <template slot-scope="scope">
             <div class="ranking-name-cell">
               <div class="photo-area">
-                <img src="https://image.959696.xyz/server/2024/03/03/65e49b8950d0c.webp" alt="" class="photo">
+                <img src="https://image.959696.xyz/server/2024/03/03/65e49b8950d0c.webp" class="photo" alt="">
               </div>
               <span class="text">{{ scope.row.name }}</span>
             </div>
